@@ -95,12 +95,3 @@ Get a free FRED API key at [fred.stlouisfed.org](https://fred.stlouisfed.org)
 ---
 
 *Built as an independent macroeconomic research project. Data updated live via FRED API on each run.*
-```
-
----
-
-Once you paste it in, save it and then push it to GitHub with:
-```
-git add .
-git commit -m "added README"
-git push
