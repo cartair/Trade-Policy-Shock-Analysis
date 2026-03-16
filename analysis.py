@@ -108,7 +108,7 @@ for i, (label, date) in enumerate(events.items()):
     ax2.axvline(ts, color='gray', linestyle='--', linewidth=1.2)
     y_pos = y_min - y_range * v_offsets[i]
     ax2.text(ts, y_pos, label, fontsize=7, color='gray', ha='center', va='top', clip_on=False)
-ax2.set_title('Trade Diversion: Did Supply Chains Shift to Vietnam & Mexico?', fontsize=16, fontweight='bold')
+ax2.set_title('Trade Diversion', fontsize=16, fontweight='bold')
 ax2.set_xlabel('Date')
 ax2.set_ylabel('Value (Millions of USD)')
 ax2.legend()
@@ -181,7 +181,7 @@ for label, date in events.items():
     ts = pd.Timestamp(date)
     ax3.axvline(ts, color='gray', linestyle='--', linewidth=1.2)
 
-ax3.set_title('Import Volume vs. Import Prices: Did Consumers Pay More?', fontsize=16, fontweight='bold')
+ax3.set_title('Import Volume vs. Import Prices', fontsize=16, fontweight='bold')
 ax3.set_xlabel('Date')
 ax3.set_ylabel('Import Volume (Millions of USD)', color='tomato')
 ax3_twin.set_ylabel('Import Price Index', color='darkorange')
